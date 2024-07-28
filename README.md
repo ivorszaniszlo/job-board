@@ -28,7 +28,7 @@ The Laravel Job Board application is designed to facilitate the job search proce
 + PHP 8
 + Alpine.js
 + MySQL
-+ Tailwind
++ Tailwind 3 (with Node.js and Vite)
 + Docker
 + Blade Templates
 + Adminer DB management
