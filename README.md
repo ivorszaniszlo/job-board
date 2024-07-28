@@ -32,6 +32,7 @@ The Laravel Job Board application is designed to facilitate the job search proce
 + Docker
 + Blade Templates
 + Adminer DB management
++ PHP Debug Bar
 
 ## Setup
 
