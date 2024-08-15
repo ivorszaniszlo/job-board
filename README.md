@@ -6,7 +6,8 @@
 * [Screenshot](#screenshot)
 * [Technologies](#technologies)
 * [Setup](#setup)
-* [Documentation](#documentation)
+* [Docker Setup](#docker-setup)
+* [Running](#running)
 * [Status](#status)
 * [Created](#created)
 
@@ -68,12 +69,6 @@ Set up the database and run migrations:
 php artisan migrate
 ```
 
-Serve the application:
-
-```bash
-php artisan serve
-```
-
 ### Docker Setup
 
 Build and run the Docker containers:
@@ -82,11 +77,21 @@ Build and run the Docker containers:
 docker-compose up --build
 ```
 
+## Running
+
+Serve the application:
+
+```bash
+php artisan serve
+```
+
+For frontend development, run the following command to start Vite or other frontend bundlers in development mode:
+
+```bash
+npm run dev
+```
+
 Access the application at `http://localhost:8000`.
-
-## Documentation
-
-Documentation is available in the `docs` directory.
 
 ## Status
 
